@@ -10,5 +10,5 @@ main = do
 
 parseInput :: String -> [Int]
 parseInput input = 
-  fmap (sum . map read . (splitOn "\n"))
+  fmap (sum . map read . splitOn "\n")
   (splitOn "\n\n" input)
