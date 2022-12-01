@@ -1,8 +1,6 @@
-import sys
-
 elves = [0]
 
-with open(sys.argv[1], 'r') as file:
+with open('data.txt', 'r') as file:
   for line in file:
     if len(line) == 1:
       elves.append(0)
