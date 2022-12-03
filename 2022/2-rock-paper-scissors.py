@@ -1,6 +1,5 @@
 def standardize(vals: list[str]) -> tuple[int, int]:
-  ints = range(1, 4)
-  return (ints['ABC'.index(vals[0])], ints['XYZ'.index(vals[1])])
+  return ('ABC'.index(vals[0]) + 1, 'XYZ'.index(vals[1]) + 1)
 
 def check_win(left: int, right: int) -> str:
   return 'draw' if right-left == 0 else 'win' if right-left in [-2, 1] else 'lose'
