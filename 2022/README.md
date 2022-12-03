@@ -40,7 +40,7 @@ def standardize(vals: list[str]) -> tuple[int, int]:
   return ('ABC'.index(vals[0]) + 1, 'XYZ'.index(vals[1]) + 1)
 ```
 
-It takes a list of choices `['A', 'Z']`, for example, and outputs a tuple of ints `(1, 3)`. It does this by getting the index of it in the string `'ABC'` or `'XYZ'` and adding 1 to it, so `'A'` would be at the 0th position in '`ABC'`, and 0 + 1 = 1, which is our identifier for Rock.
+It takes a list of choices `['A', 'Z']`, for example, and outputs a tuple of ints `(1, 3)`. It does this by getting the index of it in the string `'ABC'` or `'XYZ'` and adding 1 to it, so `'A'` would be at the 0th position in `'ABC'`, and 0 + 1 = 1, which is our identifier for Rock.
 
 * Check for wins, given two moves. This should be easy enough, as the problem itself gave us the possible winning combinations:
 
