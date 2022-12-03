@@ -2,6 +2,15 @@
 
 I've decided to attempt this year's AOC challenges in both Python and Haskell. Python, because I'd like to quickly hack together a working solution to try and get on the leaderboard. Then, I go through and try to implement a similar solution in Haskell in an attempt to become more proficient with the language.
 
+## Table of Contents
+
+1. [Day 1: Calorie Counting](#day-1-calorie-counting)
+    1. [Python Solution](#python-solution)
+    2. [Haskell Solution](#haskell-solution)
+2. [Day 2: Rock Paper Scissors](#day-2-rock-paper-scissors)
+    1. [Python Solution](#python-solution-1)
+    2. [Haskell Solution](#haskell-solution-1)
+
 ## Day 1: Calorie Counting
 
 ### Python Solution
@@ -86,4 +95,4 @@ As I find the winning combo for each line (stored in `find_choice`), I `score()`
 
 ### Haskell Solution
 
-Too lazy to type this off, plus I'm also working to condense this code more.
+Too lazy to type this out, plus I'm also working to condense this code.
